@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Life</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="#" class="logo">Cahee</a>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#header" class="menu__link menu__link--active">Home</a></li>
+                    <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
+                    <li class="menu__item"><a href="#gallery" class="menu__link">Gallery</a></li>
+                    <li class="menu__item"><a href="#subscribe" class="menu__link">Subscribe</a></li>
+                    <li class="menu__item"><a href="#blog" class="menu__link">Blog</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="row">
+                <div class="col-4 info-box">
+                    <h1 class="info-box__title">Fresh Life</h1>
+                    <p class="info-box__desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enimad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <a href="#" class="button">Get free now</a>
+                </div>
+
+                <a href="#about" class="scroll-down">
+                    <svg class="icon">
+                        <use xlink:href="images/icons-sprite.svg#scroll"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row about__row">
+                <div class="offset-7 col-5 about__block">
+                    <h1 class="about__title">About Us</h1>
+                    <p class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum. </p>
+
+                    <p class="about__text">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        inventore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row services__row">
+                <div class="col-6">
+                    <ul class="tools">
+                        <li class="tools__elements">
+                            <p class="tools__name">Online Shopping</p>
+                            <div class="tools__icon-box">
+                                <svg class="tools__icon">
+                                    <use xlink:href="images/icons-sprite.svg#basket"></use>
+                                </svg>
+                            </div>
+                        </li>
+
+                        <li class="tools__elements">
+                            <p class="tools__name">Quality Product</p>
+                            <div class="tools__icon-box">
+                                <svg class="tools__icon">
+                                    <use xlink:href="images/icons-sprite.svg#hand"></use>
+                                </svg>
+                            </div>
+                        </li>
+
+                        <li class="tools__elements">
+                            <p class="tools__name">Domestic & International Delivery</p>
+                            <div class="tools__icon-box">
+                                <svg class="tools__icon">
+                                    <use xlink:href="images/icons-sprite.svg#earth"></use>
+                                </svg>
+                            </div>
+                        </li>
+
+                        <li class="tools__elements">
+                            <p class="tools__name">Well Organized</p>
+                            <div class="tools__icon-box">
+                                <svg class="tools__icon">
+                                    <use xlink:href="images/icons-sprite.svg#carrot"></use>
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 tomato">
+                    <h3 class="services__h">Our Services</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="gallery__h">Gallery</h2>
+            <p class="gallery__info">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div class="gallery-box">
+                <div class="gallery__big-box">
+                    <img class="img" src="images/gallery/1.jpg" alt="">
+                </div>
+
+                <div class="gallery__small-box">
+                    <img class="img" src="images/gallery/2.jpg" alt="">
+                    <img class="img" src="images/gallery/3.jpg" alt="">
+                </div>
+
+                <div class="gallery__mid-box">
+                    <img src="images/gallery/4.jpg" alt="" class="img">
+                    <img src="images/gallery/5.jpg" alt="" class="img">
+                </div>
+            </div>
+
+            <form class="gallery__button" action="#">
+                <input class="button__input" type="button" value="VIEW MORE">
+            </form>
+        </div>
+    </section>
+
+
+    <section class="subscribe" id="subscribe">
+        <div class="container subscribe--container">
+            <h3 class="subscribe__title">Subscribe To Us</h3>
+            <p class="subscribe__info">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+            <form action="#" class="subscribe__form">
+                <input class="form__mail" type="email" placeholder="Your email address...">
+                <input class="form__button" type="submit" value="SUBSCRIBE">
+            </form>
+        </div>
+    </section>
+
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="blog__title">Blog</h3>
+
+            <p class="blog__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae laborum tenetur
+                rem quasi pariatur, voluptatibus alias quia necessitatibus. Itaque cum ut ea dignissimos deserunt ullam
+                quae corporis numquam?</p>
+
+            <div class="blog__element">
+                <div class="info-block">
+                    <img class="img" src="images/blog/1.jpg" alt="">
+                    <div class="info-block__shadow"></div>
+                    <div class="date">
+                        <p>20</p>
+                        <p>NOV</p>
+                    </div>
+
+                    <div class="text-info">
+                        <h3>Green Smoothies: Too Much of a Good Thing? </h3>
+                        <p>By Auskteez - 2 hour</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <img class="img" src="images/blog/2.jpg" alt="">
+                    <div class="info-block__shadow"></div>
+
+                    <div class="date">
+                        <p>14</p>
+                        <p>NOV</p>
+                    </div>
+
+                    <div class="text-info">
+                        <h3>Growing Food and a “Thirst” for Innovation </h3>
+                        <p>By Auskteez - 3 hour</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <img class=" img" src="images/blog/3.jpg" alt="">
+                    <div class="info-block__shadow"></div>
+
+                    <div class="date">
+                        <p>10</p>
+                        <p>NOV</p>
+                    </div>
+
+                    <div class="text-info">
+                        <h3>Pesticides & Food: What You Need to Know</h3>
+                        <p>By Auskteez - 6 hours</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="#" class="blog__form">
+                <input class="blog__button" type="submit" value="VIEW MORE">
+            </form>
+        </div>
+    </section>
+
+
+    <section class="contact-form" id="contact">
+        <header>
+            <h1>Contact</h1>
+            <p>For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+        </header>
+
+        <div class="contact-block">
+            <div class="container contact-block--container">
+                <form action="#">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your e-mail">
+                    <input type="tel" placeholder="Your phone number">
+                    <textarea placeholder="Your message"></textarea>
+                </form>
+
+                <div class="contact-info">
+                    <ul>
+                        <li>
+                            <div class="title">ADDRESS</div>
+                            <a>123 City name, Street, City, Country</a>
+                        </li>
+
+                        <li>
+                            <div class="title">EMAIL</div>
+                            <a href="mailto">cahee@domain.com</a>
+                        </li>
+
+                        <li>
+                            <div class="title">PHONE</div>
+                            <a href="tel">+012 345 6789</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__row">
+                <p class="footer__copyright">&copy; 2015 Company. All right reserved.</p>
+                <a href="#" class="logo logo--footer">Cahee</a>
+                <p class="footer__author">Made with <span class="text-red">love</span> by Auskteez</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
